@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>typinggame</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <audio id="sound-file" preload="auto" autoplay="true">
+  <source src="decision42.mp3">
+</audio>
+</head>
+<body>
+  <header class="header">
+  </header>
+  <div class="mainGame">
+    <div id="timer"></div>
+    <p id="text"></p>
+    <p class="attention p"></p>
+  </div>
+  <main>
+    <div class="modal">
+      <ul class="modalList">
+        <li class="modalClose">かんたん</li>
+        <li class="modalClose">ふつう</li>
+        <li class="modalClose">むずかしい</li>
+        <p class="p">レベルをクリックでゲームがスタートします</p>
+      </ul>
+    </div>
+    <div class="modalResult">
+      <ul class="resultList">
+        <li class="modalScore"></li>
+        <li class="percent"></li>
+        <div class="back">戻る</div>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
